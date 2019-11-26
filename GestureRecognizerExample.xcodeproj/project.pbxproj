@@ -13,6 +13,7 @@
 		733D726521B4A45F00F5EE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733D726421B4A45F00F5EE49 /* Assets.xcassets */; };
 		733D726821B4A45F00F5EE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733D726621B4A45F00F5EE49 /* LaunchScreen.storyboard */; };
 		73A1C13921B53E7A00E340E6 /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A1C13821B53E7900E340E6 /* scene.jpg */; };
+		73B90B4A238C91DA008EF7B9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B90B49238C91DA008EF7B9 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		733D726721B4A45F00F5EE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		733D726921B4A45F00F5EE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73A1C13821B53E7900E340E6 /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene.jpg; sourceTree = "<group>"; };
+		73B90B49238C91DA008EF7B9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				733D725D21B4A45C00F5EE49 /* AppDelegate.swift */,
 				733D725F21B4A45C00F5EE49 /* ViewController.swift */,
 				73A1C13821B53E7900E340E6 /* scene.jpg */,
+				73B90B49238C91DA008EF7B9 /* icon.png */,
 				733D726121B4A45D00F5EE49 /* Main.storyboard */,
 				733D726421B4A45F00F5EE49 /* Assets.xcassets */,
 				733D726621B4A45F00F5EE49 /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				733D726821B4A45F00F5EE49 /* LaunchScreen.storyboard in Resources */,
+				73B90B4A238C91DA008EF7B9 /* icon.png in Resources */,
 				733D726521B4A45F00F5EE49 /* Assets.xcassets in Resources */,
 				73A1C13921B53E7A00E340E6 /* scene.jpg in Resources */,
 				733D726321B4A45D00F5EE49 /* Main.storyboard in Resources */,

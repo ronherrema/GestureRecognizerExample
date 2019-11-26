@@ -50,6 +50,7 @@ class ViewController: UIViewController {
                                   y:view.center.y + translation.y)
         }
         sender.setTranslation(CGPoint.zero, in: self.view)
+
     }
     
     // generates a randomly placed small version of the main image
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
             let randX = CGFloat(arc4random_uniform(200) + 50)
             let newImage = UIImageView(frame: CGRect(x: randX, y: randY, width: 30, height: 20))
             newImage.image = UIImage(named: "scene.jpg")
-            // for some reason this resets the main image view, also
+            // the main image view gets reset by addSubview because of Autolayout constraints
             self.view.addSubview(newImage)
         }
     }
